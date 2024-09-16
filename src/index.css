@@ -1,0 +1,17 @@
+@font-face {
+    font-family: pp;
+    src: url(./assets/fonts/PPNeueMontreal-Book.otf);
+}
+
+@font-face {
+    font-family: founders;
+    src: url(./assets/fonts/founders-grotesk-x.cd2d353.woff2);
+}
+
+body {
+    overflow-x: hidden;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
