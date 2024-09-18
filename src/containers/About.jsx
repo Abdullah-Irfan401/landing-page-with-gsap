@@ -7,12 +7,8 @@
 
 import React from "react";
 
-
 function About() {
-
   // const main = useRef();
-
-
 
   // useGSAP(() => {
   //   gsap.to(main.current, {
@@ -27,11 +23,10 @@ function About() {
   //   });
   // });
 
-
   return (
-    <div className="  absolute z-[120]  w-[100%]  bg-[#E5E7DF]  mt-[215rem] pb-[8rem] "  >
-      <div className="flex  items-center justify-between px-6 text-[1.1rem] mt-8  font-pp uppercase font-semibold text-[#1e1e1e]  ">
-        <h2>● what we're about</h2>
+    <div className="  absolute z-[120]  w-[100%]  bg-[#E5E7DF]  mt-[270rem] pb-[8rem] ">
+      <div className="flex  items-center justify-between px-6 text-[1.1rem] mt-8 tracking-wider font-pp uppercase font-semibold text-[#1e1e1e]  ">
+        <h2>● what we’re about</h2>
         <h2 className="ml-[-15rem]">(BO® — 08)</h2>
         <h2>CREATIVE AS BUNDLED PROJECTS</h2>
       </div>
@@ -53,7 +48,7 @@ function About() {
               <div className=" flex-col  ">
                 <div className=" flex relative z-50 items-center justify-center reletive overflow-hidden mt-[-6rem] ml-[-1rem] bg-red-700 h-[11rem] w-[20rem] ">
                   <img
-                    className=" absolute transition-transform duration-300 hover:scale-105 h-[12rem] "
+                    className="  transition-transform duration-300 hover:scale-105 h-[12rem] "
                     src="./article.avif"
                     alt=""
                   />
@@ -61,11 +56,11 @@ function About() {
                 <div className="text-[1.1rem] ml-[-1rem] mt-[.5rem] font-medium   ">
                   <h4>How Subscriptions End Agency </h4>
                   <h4>Excess.</h4>
-                  <h4 className=" text-[#949690] " >Article - 7 minute read</h4>
+                  <h4 className=" text-[#949690] ">Article - 7 minute read</h4>
                 </div>
               </div>
 
-              <div className=" text-[2.7rem] text-[#1E1E1E] leading-[3.3rem] mr-[3rem] mt-[-6rem] ">
+              <div className=" text-[2.7rem] text-[#1E1E1E] leading-[3.3rem] tracking-wide mr-[1.2rem] mt-[-6rem] ">
                 <div>
                   <span> More than a blog, The Feed is our</span>
                 </div>

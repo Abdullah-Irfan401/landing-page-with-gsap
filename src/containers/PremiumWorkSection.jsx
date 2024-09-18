@@ -18,7 +18,7 @@ function PremiumWorkSection() {
   useGSAP(() => {
     gsap.to(main.current, {
       y: -700,
-      pin: true,
+      // pin: true,
 
       scrollTrigger: {
         // markers: true,
@@ -95,9 +95,9 @@ const hideCursor = () => setIsCursorVisible(false);
 
   return (
     <div ref={main} className="bg-white  size-full pb-[115rem] absolute z-[100] ">
-      <div className="flex static items-center justify-between px-6 text-[1.1rem] mt-8 font-pp uppercase font-semibold text-[#1e1e1e]  ">
-        <h2>● Projects</h2>
-        <h2 className="ml-[-15rem]">(BO® — 02)</h2>
+      <div className="flex static items-center justify-between px-6 text-[1.138rem] mt-8 font-pp  font-semibold text-[#1e1e1e]  ">
+        <h2>● PROJECTS</h2>
+        <h2 className="ml-[-18rem]">(BO® — 02)</h2>
         <h2>See all of our work</h2>
       </div>
       <div className="flex items-center justify-center text-[27.035rem] font-founders  text-[#1E1E1E] mt-[-6rem] ">

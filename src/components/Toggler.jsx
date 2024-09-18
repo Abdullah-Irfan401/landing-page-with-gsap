@@ -44,13 +44,12 @@ function Toggler() {
       <div>
       
         <div className="flex flex-col items-strech justify-between">
-        <div className="flex   text-2xl font-pp text-white  mt-[22rem] mb-[10rem]">
-            <h4 className="mt-[-15rem] pl-[1.5rem] " >1 — 5</h4>
+        <div className="flex   text-[1.138rem] font-semibold font-pp text-white  mt-[22rem] mb-[10rem]">
+            <h4 className="mt-[-13.8rem] pl-[1.5rem] " >1 — 5</h4>
           </div>
          
 
           <div  >
-            {/* Replace with <ToggleText1 /> */}
             <RenderToggleText index={isSelected} />
           </div>
 

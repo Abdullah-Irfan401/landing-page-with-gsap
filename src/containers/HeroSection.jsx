@@ -22,7 +22,7 @@ function HeroSection() {
     gsap.to(move1.current, {
       transform: "translateX(-100%)",
       repeat: -1,
-      duration: 25,
+      duration: 32,
       ease: "none",
     });
   });
@@ -30,7 +30,7 @@ function HeroSection() {
     gsap.to(move2.current, {
       transform: "translateX(-100%)",
       repeat: -1,
-      duration: 25,
+      duration: 32,
       ease: "none",
     });
   });
@@ -39,7 +39,7 @@ function HeroSection() {
     gsap.to(move3.current, {
       transform: "translateX(-100%)",
       repeat: -1,
-      duration: 25,
+      duration: 32,
       ease: "none",
       // ease: "inOut",
     });
@@ -48,7 +48,7 @@ function HeroSection() {
     gsap.to(move4.current, {
       transform: "translateX(-100%)",
       repeat: -1,
-      duration: 25,
+      duration: 32,
       ease: "none",
       // ease: "inOut",
     });
@@ -57,7 +57,7 @@ function HeroSection() {
     gsap.to(move5.current, {
       transform: "translateX(-100%)",
       repeat: -1,
-      duration: 25,
+      duration: 32,
       ease: "none",
       // ease: "inOut",
     });
@@ -83,9 +83,9 @@ function HeroSection() {
   });
 
   return (
-    <div className="bg-[#E5E7DF] size-full pb-[9rem] pt-20 font-pp  overflow-x-hidden ">
+    <div className="bg-[#E5E7DF] size-full pb-[8rem] pt-20 font-pp  overflow-x-hidden ">
       <div className="flex justify-between items-stretch text-4xl font-bold mt-24 pl-6 ">
-        <div className="flex-col  text-lg   font-[400] text-[#1E1E1E]  mt-[-3rem]">
+        <div className="flex-col  leading-[1.537rem] text-[1.138rem]  font-[500] text-[#1E1E1E]  mt-[-3rem]">
           <div>
             <span>Pick a plan, submit a job request,</span>
           </div>
@@ -98,16 +98,16 @@ function HeroSection() {
           <div>
             <a
               href="#"
-              className="relative z-10 inline-flex items-center mt-[1.9rem] text-xl font-pp font-normal text-[#1E1E1E] border-b-[1.5px] border-[#1E1E1E] pb-1 transition-all duration-300 ease-out group"
+              className="relative z-10 inline-flex items-center mt-[1.9rem] tracking-wider text-[1.138rem] font-pp font-semibold text-[#1E1E1E] border-b-[1.5px] border-[#1E1E1E] pb-1 transition-all duration-300 ease-out group"
             >
               Explore Plans
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                height="24px"
+                height="18px"
                 viewBox="0 -960 960 960"
-                width="24px"
+                width="18px"
                 fill="#1E1E1E"
-                className="ml-12 transition-transform duration-300 ease-in-out group-hover:translate-x-2"
+                className="ml-[3.1rem] transition-transform  duration-300 ease-in-out group-hover:translate-x-2"
               >
                 <path d="m560-240-56-58 142-142H160v-80h486L504-662l56-58 240 240-240 240Z" />
               </svg>
@@ -115,7 +115,7 @@ function HeroSection() {
             </a>
           </div>
         </div>
-        <div className="flex-col mt-[-3rem] font-pp  ml-[10rem] text-[2.9rem] leading-[3.2rem] text-[#1E1E1E] font-semibold  pr-6 ">
+        <div className="flex-col mt-[-3rem] font-pp  mr-[-.3rem] text-[2.7rem] tracking-wider  leading-[3.045rem] text-[#1E1E1E] font-semibold  pr-6 ">
           <div>
             <span>Premium quality creative at lean rates</span>
           </div>
@@ -128,7 +128,7 @@ function HeroSection() {
         </div>
       </div>
 
-      <div className="flex -mt-[23rem]" ref={Subscribe}>
+      <div className="flex -mt-[25rem]" ref={Subscribe}>
         <div className="flex items-center justify-center gap-4 " ref={move1}>
           <h1
             className="text-[25.04rem] text-[#1e1e1e] font-founders cursor-default mt-[16rem] ml-[13rem]"
@@ -195,7 +195,7 @@ function HeroSection() {
           />
         </div>
       </div>
-      <div className="flex-col relative items-stretch justify-start ml-6 mt-[13rem]  text-[2.95rem] font-pp font-semibold leading-[3rem] text-[#1e1e1e] ">
+      <div className="flex-col relative items-stretch justify-start ml-6 mt-[13rem]  text-[2.95rem] font-pp font-[600] leading-[3rem] text-[#1e1e1e] ">
         <div className="">
           <div>
             <span>No more inflated agency fees. No more flaky</span>
@@ -224,14 +224,16 @@ function HeroSection() {
       </div>
       <div>
         <hr className=" flex items-center justify-center text-center h-4 px-6 mt-[6rem] border-[#CDCFC7]  " />
-        <div className="flex items-center justify-between px-6 text-[1.1rem] mt-3 font-pp uppercase font-semibold text-[#1e1e1e]  ">
+        <div className="flex items-center justify-between px-6 text-[1.138rem] mt-3 font-pp uppercase font-bold text-[#1e1e1e]  ">
           <h2 className="font-pp">● Creative as it should be</h2>
           <h2>(BO® — 01)</h2>
         </div>
-        <div className="flex-col justify-center items-center relative ml-[44.2rem] -mt-8 pb-[2rem]">
+        <div className="flex-col justify-center items-center relative ml-[43.2rem] -mt-8 pb-[2rem]">
           <div>
-            <h4 className="text-[#1E1E1E] font-pp text-[1.252rem] font-semibold mb-[1.25rem] ">Fully Loaded</h4>
-            <div className="text-[#949690] text-[1.252rem] mb-[2.5rem] font-semibold ">
+            <h4 className="text-[#1E1E1E] font-pp text-[1.252rem] font-[600] mb-[1.25rem] ">
+              Fully Loaded
+            </h4>
+            <div className="text-[#949690] text-[1.252rem] leading-[1.69rem] mb-[2.5rem] font-semibold ">
               <div>
                 <span>From complex strategies to intricate identities</span>
               </div>
@@ -246,9 +248,11 @@ function HeroSection() {
             </div>
           </div>
           <div>
-            <h4 className="text-[#1E1E1E] font-pp text-[1.252rem] font-semibold mb-[1.25rem] ">Flat Fee Flex</h4>
+            <h4 className="text-[#1E1E1E] font-pp text-[1.252rem]  font-semibold mb-[1.25rem] ">
+              Flat Fee Flex
+            </h4>
 
-            <div className="text-[#949690] text-[1.252rem] mb-[2.5rem] font-semibold ">
+            <div className="text-[#949690] text-[1.252rem] mb-[2.5rem] leading-[1.69rem] font-semibold ">
               <div>
                 <span>We do not haggle over hours. Our plans are</span>
               </div>
@@ -263,9 +267,11 @@ function HeroSection() {
             </div>
           </div>
           <div>
-            <h4 className="text-[#1E1E1E] font-pp text-[1.252rem] font-semibold mb-[1.25rem] ">Creative Control</h4>
+            <h4 className="text-[#1E1E1E] font-pp text-[1.252rem] font-semibold mb-[1.25rem] ">
+              Creative Control
+            </h4>
 
-            <div className="text-[#949690] text-[1.252rem] mb-[2.5rem] font-semibold ">
+            <div className="text-[#949690] text-[1.252rem] mb-[2.5rem] leading-[1.69rem] font-semibold ">
               <div>
                 <span>We do not want our clients to ever feel trapped</span>
               </div>

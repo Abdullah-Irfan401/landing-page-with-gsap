@@ -87,7 +87,7 @@ function Footer() {
 
   return (
     <div
-      className="  absolute z-[140]  w-[100%]  bg-[#1E1E1E]  mt-[294.3rem] pb-[4rem] "
+      className="  absolute z-[140]  w-[100%]  bg-[#1E1E1E]  mt-[351.3rem] pb-[4rem] "
       ref={main}
     >
       <div className="flex items-stretch justify-between font-pp px-6  text-[white] font-semibold mt-[7rem]  ">
@@ -110,8 +110,8 @@ function Footer() {
         <div className="   border-t border-b border-[#4B4B4B]  w-[96%] "></div>
       </div>
 
-      <div className="flex relative items-start justify-start px-6 text-[1.25rem] z-[210] font-semibold ">
-        <div className=" w-[35rem] h-[15rem] mt-[13rem] flex items-center justify-between ">
+      <div className="flex relative items-start justify-start px-6 text-[1.25rem]  z-[210] font-semibold ">
+        <div className=" w-[34rem] h-[15rem] mt-[13rem] flex items-center  justify-between ">
           <div className=" flex-col ">
             <div className=" mb-[1.2rem] ">
               <span className=" text-[white]  ">Sitemap</span>
@@ -120,17 +120,17 @@ function Footer() {
               <span className=" text-[white] ">Overview</span>
             </div>
             <div>
-              <span className=" text-[#4B4B4B] font-bold hover:text-[white] transition-colors duration-300 cursor-pointer ">
+              <span className=" text-[#9b9999] font-bold hover:text-[white] transition-colors duration-300 cursor-pointer ">
                 Work
               </span>
             </div>
             <div>
-              <span className=" text-[#4B4B4B] font-bold hover:text-[white] transition-colors duration-300 cursor-pointer ">
+              <span className=" text-[#9b9999] font-bold hover:text-[white] transition-colors duration-300 cursor-pointer ">
                 Feed
               </span>
             </div>
             <div>
-              <span className=" text-[#4B4B4B] font-bold hover:text-[white] transition-colors duration-300 cursor-pointer ">
+              <span className=" text-[#9b9999] font-bold hover:text-[white] transition-colors duration-300 cursor-pointer ">
                 Pricing
               </span>
             </div>
@@ -140,12 +140,12 @@ function Footer() {
               <span className=" text-[white]  ">Legal</span>
             </div>
             <div>
-              <span className=" text-[#4B4B4B] font-bold hover:text-[white] transition-colors duration-300 cursor-pointer ">
+              <span className=" text-[#9b9999] font-bold hover:text-[white] transition-colors duration-300 cursor-pointer ">
                 Terms
               </span>
             </div>
             <div>
-              <span className=" text-[#4B4B4B] font-bold hover:text-[white] transition-colors duration-300 cursor-pointer ">
+              <span className=" text-[#9b9999] font-bold hover:text-[white] transition-colors duration-300 cursor-pointer ">
                 Privacy
               </span>
             </div>
@@ -155,12 +155,12 @@ function Footer() {
               <span className=" text-[white]  ">Social</span>
             </div>
             <div>
-              <span className=" text-[#4B4B4B] font-bold hover:text-[white] transition-colors duration-300 cursor-pointer ">
+              <span className=" text-[#9b9999] font-bold hover:text-[white] transition-colors duration-300 cursor-pointer ">
                 Instagram
               </span>
             </div>
             <div>
-              <span className=" text-[#4B4B4B] font-bold hover:text-[white] transition-colors duration-300 cursor-pointer ">
+              <span className=" text-[#9b9999] font-bold hover:text-[white] transition-colors duration-300 cursor-pointer ">
                 Linkedin
               </span>
             </div>
@@ -223,7 +223,7 @@ function Footer() {
 
       <div className=" flex items-start justify-start px-6 mt-[-6rem] ">
         <div>
-          <span className=" text-[white] font-pp font-semibold text-[1.25rem] ">
+          <span className=" text-[white] font-pp font-semibold text-[1.25rem]  ">
             Copyright © Better Off 2024
           </span>
         </div>

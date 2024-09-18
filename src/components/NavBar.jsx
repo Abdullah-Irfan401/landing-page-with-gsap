@@ -51,13 +51,13 @@ function NavBar() {
           </a>
         </div>
 
-        <ul className="flex space-x-8 text-xl text-[#000000] font-extrabold">
+        <ul className="flex space-x-8 mr-[2rem] text-[1.138rem] text-[#000000] font-black">
           <li>
             <a href="#" className="underline">
               Overview
             </a>
           </li>
-          <li>
+          <li>  
             <a href="#" className="underline">
               Work
             </a>

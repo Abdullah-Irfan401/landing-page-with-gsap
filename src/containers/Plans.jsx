@@ -7,20 +7,16 @@ gsap.registerPlugin(useGSAP, ScrollTrigger);
 
 import React, { useRef } from "react";
 
-
-
 import Questions from "../components/Questions";
 import ToggleButton from "../components/ToggleButton";
+import PricingCard from "../components/PricingCard";
 
 function Plans() {
-
   const main = useRef();
-
-
 
   useGSAP(() => {
     gsap.to(main.current, {
-      y: -600,
+      y: -800,
       // pin: true,
       scrollTrigger: {
         // markers: true,
@@ -31,25 +27,97 @@ function Plans() {
     });
   });
 
-
   return (
-    <div className=" bg-[white] w-full absolute z-[110] mt-[127rem] pb-[35rem] " ref={main} >
+    <div
+      className=" bg-[white] w-full absolute z-[110] mt-[127rem] pb-[35rem] "
+      ref={main}
+    >
       <div className="flex  items-center justify-between px-6 text-[1.1rem] mt-8 font-pp uppercase font-semibold text-[#1e1e1e]  ">
         <h2>● Plans</h2>
-        <h2 className="ml-[-15rem]">
-        (BO® — 06)</h2>
+        <h2 className="ml-[-15rem]">(BO® — 06)</h2>
         <h2>ADD-TO-CART CREATIVE</h2>
       </div>
-      <div className="flex-col  items-start justify-start px-6 text-[1.1rem] mt-8 font-pp uppercase font-semibold text-[#1e1e1e]" >
-        <div><span>Subscriptions</span> <ToggleButton /> <div><span>Projects</span></div> </div>
+      <div className="flex  items-start  justify-start gap-[.5rem] px-6 text-[1.1rem] mt-[6rem] font-pp uppercase font-semibold text-[#1e1e1e]">
+        <div>
+          <span>Subscriptions</span>{" "}
+        </div>
+        <ToggleButton />
+        <div>
+          <span>Projects</span>
+        </div>
       </div>
-      <div className="flex items-stretch justify-between font-pp px-6  text-[#000000] font-semibold mt-8  ">
-        <div className="text-[1.1rem]  ">
-          <h4>● Faq</h4>
-          <h4 >(BO® — 07)</h4>
+      <div className="flex-col items-start justify-start px-6 mt-[3rem] font-pp text-[2.85rem] leading-[3rem] tracking-[0.015em] font-semibold text-[#1E1E1E] ">
+        <div>
+          <span>Subscriptions are like having an in-house</span>
+        </div>
+        <div>
+          <span>creative department without the headaches of</span>
+        </div>
+        <div>
+          <span>managing salaried employees.</span>
+        </div>
+      </div>
+      <div className="flex items-center justify-between px-6 py-8 ">
+        <PricingCard
+          badgeText="Most popular"
+          badgecolor={{ backgroundColor: "#CFA9ED" }}
+          title="Part-time Pro"
+          description="One part-time creative dedicated to your continuous stream of projects."
+          price="$6400"
+          pricetime="/month"
+          duration="Pause or cancel anytime."
+          buttonText="Subscribe now"
+          infoLinkText="Need more info? Let’s chat."
+          includedItems={[
+            "One dedicated creative, 20 hrs a week",
+            "Unlimited requests",
+            "Unlimited revisions",
+            "Project management",
+            "Access to all services",
+            "Pause or cancel anytime",
+          ]}
+        />
+        <PricingCard
+          badgeText="Best Value"
+          badgecolor={{ backgroundColor: "#E0F07D" }}
+          title="Full-time Premium"
+          description="One elite full-timer working simultaneously on multiple projects."
+          price="$12800"
+          pricetime="/month"
+          duration="Pause or cancel anytime."
+          buttonText="Subscribe now"
+          infoLinkText="Need more info? Let’s chat."
+          includedItems={[
+            "One senior creative, 40 hrs a week",
+            "Unlimited requests",
+            "Unlimited revisions",
+            "Project management",
+            "Access to all services",
+            "Pause or cancel anytime",
+          ]}
+        />
+        <PricingCard
+          price= {[ "Build your own subscription. We’ll tailor the perfect", "team."]}
+          padding={{ padding: "1.2rem 0rem" }}
+          buttonText="Customize my plan"
+          infoLinkText="Need more info? Let’s chat."
+          includedItems={[
+            "Full access to all creative capabilities",
+            "Coverage from kickoff to delivery",
+            "Senior-level talent",
+            "Creative direction",
+            "Project management",
+            "Easy add-on services mid-project",
+          ]}
+        />
+      </div>
+      <div className="flex items-stretch justify-between font-pp px-6  mt-[12rem] text-[#000000] font-semibold   ">
+        <div className="text-[1.138rem]  ">
+          <h4>● FAQ</h4>
+          <h4>(BO® — 07)</h4>
         </div>
 
-        <div className=" text-[2.7rem]  leading-[3.3rem] mr-[16rem] ">
+        <div className=" text-[2.846rem] tracking-wide leading-[3.045rem] mr-[14rem] ">
           <div>
             <span> We love talking shop and</span>
           </div>
@@ -68,8 +136,8 @@ function Plans() {
         <div className="   border-t border-b border-[#E5E7DF]  w-[96%] "></div>
       </div>
 
-      <div className=" flex items-stretch justify-between text-[1.25rem] font-semibold mt-4 px-6 ">
-        <div className=" mt-[1.8rem] " >
+      <div className=" flex items-stretch justify-between text-[1.25rem] font-semibold mt-[-.5rem]  px-6 ">
+        <div className=" mt-[1.8rem] ">
           <div>
             <span>Frequently asked questions</span>
           </div>

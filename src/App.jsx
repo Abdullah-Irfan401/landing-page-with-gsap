@@ -19,7 +19,7 @@ function App() {
       <ImgSection />
       <FluffSection />
       <Plans />
-      <About />
+      <About /> 
       <Footer />
     </div>
   )

@@ -29,9 +29,9 @@ function FluffSection() {
       className="  absolute z-[100]  w-[100%] bg-[#E5E7DF]  mt-[10rem] "
       ref={main}
     >
-      <div className="flex  items-center justify-between px-6 text-[1.1rem] mt-8 font-pp uppercase font-semibold text-[#1e1e1e]  ">
+      <div className="flex  items-center justify-between px-6 text-[1.138rem]  mt-8 font-pp uppercase font-semibold text-[#1e1e1e]  ">
         <h2>● FULL benefits</h2>
-        <h2 className="ml-[-15rem]">(BO® — 05)</h2>
+        <h2 className="ml-[-13rem]">(BO® — 05)</h2>
         <h2>CREATIVE AS A SUBSCRIPTION</h2>
       </div>
       <div className=" flex items-center justify-center  ">
@@ -49,8 +49,8 @@ function FluffSection() {
           </div>
         </div>
       </div>
-      <div className=" flex items-stretch justify-between px-6 pb-[15rem] ">
-        <div className=" font-pp font-medium text-[1.25rem] leading-[1.5rem] ">
+      <div className=" flex items-stretch justify-between mt-[3.4rem] px-6 pb-[15rem] ">
+        <div className=" font-pp font-medium text-[1.138rem] leading-[1.537rem] ">
           <div>
             <span>We've trimmed the fat to</span>
           </div>
@@ -61,7 +61,7 @@ function FluffSection() {
             <span>services at skinny rates.</span>
           </div>
         </div>
-        <div className=" flex gap-[1rem] ">
+        <div className=" flex mr-[rem] gap-[1rem] ">
           <div>
             <Benefits
               number="01"

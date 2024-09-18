@@ -17,7 +17,7 @@ function ServicesSection() {
   useGSAP(() => {
     gsap.to(main.current, {
       y: -300,
-      pin: true,
+      // pin: true,
       scrollTrigger: {
         // markers: true,
         trigger: main.current,
@@ -30,32 +30,32 @@ function ServicesSection() {
 
   return (
     <div
-      className=" bg-[#1E1E1E] w-full absolute text-9xl z-[115] mt-[70rem] pb-[0rem] "
+      className=" bg-[#1E1E1E] w-full absolute  z-[115] mt-[70rem] pb-[0rem] "
       ref={main}
     >
-      <div className="flex items-stretch justify-between font-pp px-6  text-[white] font-semibold mt-8  ">
-        <div className="text-[1.1rem]  ">
+      <div className="flex items-stretch justify-between font-pp px-6  text-[white] tracking- font-semibold mt-8  ">
+        <div className="text-[1.138rem]  ">
           <h4>● CONCIERGE CREATIVE</h4>
-          <h4 className=" mt-3 ">(BO® — 03)</h4>
+          <h4 className=" ">(BO® — 03)</h4>
         </div>
 
-        <div className=" text-[2.7rem]  leading-[3.3rem] mr-[3rem] ">
+        <div className=" text-[2.846rem] tracking-wide leading-[3.045rem] mr-[1rem] ">
           <div>
             <span> Superior brands require sophisticated</span>
           </div>
           <div>
-            <span> capabilities that many businesses could not</span>
+            <span> capabilities that many businesses couldn't</span>
           </div>
           <div>
             <span>access until now.</span>
           </div>
         </div>
       </div>
-      <div className=" flex items-center justify-center font-founders text-[27.035rem] text-[white] ">
+      <div className=" flex items-center justify-center font-founders mt-[-7rem] text-[27.035rem] text-[white] ">
         <span>SERVICES</span>
       </div>
       <div className=" flex items-center justify-center  ">
-        <div className=" text-[3rem] w-[57%] ml-[20rem] mt-[3rem] ">
+        <div className=" text-[3rem] w-[57%] ml-[22rem] mt-[-4.2rem] ">
           <h4 className=" text-[1.25rem] font-pp text-[white] font-semibold pb-[1.25rem] ">
             Our process and capabilities include:
           </h4>
@@ -111,7 +111,7 @@ function ServicesSection() {
           />
           <ExpandableSection
             number="4"
-            title="content"
+            title="Content"
             content="We craft content designed to cancel noise, cut through clutter, and connect with your customers on an emotional level. We view content as branded behavior that must reflect the position and principles of the company, and serve as an authentic extension of its story. Every content launch includes a strategy that aligns with your business objectives and a deployment plan that ensures the project comes in on-deadline and on-budget.   "
             tags={[
               "Brand Asset Development",
@@ -129,9 +129,9 @@ function ServicesSection() {
 
       <div>
         <div className="border-t border-b border-[#353535] mt-[15rem]  "></div>
-        <div className="flex static items-center justify-between px-6 text-[1.1rem] mt-8 font-pp uppercase font-semibold text-[white]  ">
+        <div className="flex static items-center justify-between px-6 text-[1.138rem] mt-8 font-pp uppercase font-semibold text-[white]  ">
           <h2>● client APPROVAL</h2>
-          <h2 className="ml-[-15rem]">CREATIVE AS BUNDLED PROJECTS</h2>
+          <h2 className="ml-[-13rem]">CREATIVE AS BUNDLED PROJECTS</h2>
           <h2>(BO® — 04)</h2>
         </div>
       </div>
